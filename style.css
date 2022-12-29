@@ -1,0 +1,52 @@
+body {
+    font-size: 0px;
+    background-image: url('background.jpg');
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#text-box {
+    border: none;
+    background-color: silver;
+    font-size: 25px;
+    width: 270px;
+    height: 100px;
+    padding: 5px;
+    font-family: cursive;
+    resize: none;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+button {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgba(122, 122, 122, 0.226);
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.backspace-btn {
+    width: 140px;
+}
+
+.big-button {
+    color: lightsteelblue;
+}
+
+.bottom-left-border-radius {
+    border-bottom-left-radius: 10px;
+}
+
+.bottom-right-border-radius {
+    border-bottom-right-radius: 10px;
+}
